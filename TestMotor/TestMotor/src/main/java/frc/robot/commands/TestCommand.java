@@ -23,6 +23,7 @@ public class TestCommand extends CommandBase {
   @Override
   public void execute() {
     testMotor.setPower(power);
+    System.out.println("Runnning Motor");
   }
 
   // Called once the command ends or is interrupted.
